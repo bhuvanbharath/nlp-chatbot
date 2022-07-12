@@ -1,0 +1,39 @@
+{
+    "intents":[
+        {
+            "tag": "greeting",
+            "patterns": ["hi, hello", "how are you", "hey", "howdy", "good morning", "good afternoon", "good evening", "good night"],
+            "responses": ["Hey there, How can we help you?", "Nice to meet you, How can we help?", "Hi, Thanks for visiting"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye","see you", "good bye", "adios"],
+            "responses": ["Bye, See you again!", "Bye, Have a good day", "Good bye, Looking forward to meet you again!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["thank you", "thanks", "thanks for the help", "that's helpful", "i am grateful"],
+            "responses": ["Happy to help you :)", "It's our pleasure :)", "You are welcome :)"]
+        },
+        {
+            "tag": "items",
+            "patterns": ["what do you have?", "what do you sell?", "what can you do for me?", "what is your business?"],
+            "responses": ["We sell fasteners", "We sell fasteners such as nuts and bolts"]
+        },
+        {
+            "tag": "payments",
+            "patterns": ["how can i pay?", "do you accept cash?", "do you accept cards?", "can i pay with upi?"],
+            "responses": ["We accept VISA cards and UPI payments", "We accept UPI payments and VISA cards"]
+        },
+        {
+            "tag": "delivery",
+            "patterns": ["how can i get the products?", "do you do door delivery?", "how will you ship the products?", "is door delivery available?"],
+            "responses": ["We do door delivery between 9AM - 6PM"]
+        },
+        {
+            "tag": "fact",
+            "patterns": ["can you tell me an interesting fact?", "do you know any facts", "can you get rid of my boredom"],
+            "responses": ["Because of differences in gravity, a 200 pound person would only weigh 76 pounds on Mars.", "Light from the Earth takes just 1.255 seconds to reach the Moon.", "Sound travels at a speed of around 767 miles per hour (1,230 kilometers per hour)."]
+        }
+    ]
+}
