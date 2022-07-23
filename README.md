@@ -1,2 +1,2 @@
 # nlp-chatbot
-Developing a chat bot with PyTorch framework
+Developing a manufacturing chat bot with PyTorch framework
